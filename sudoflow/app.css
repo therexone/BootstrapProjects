@@ -1,0 +1,99 @@
+body {
+    background: url("bg.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Karla', sans-serif;
+}
+
+#logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.btn-outline-dark:hover {
+    background-color: #1B7365;
+    border-color: #1B7365;
+}
+
+.signincard {
+    background: rgba(53, 219, 173, 0.47);
+    backdrop-filter: blur(10px);
+    border-radius: 38px;
+}
+
+.form {
+    padding: 2rem 4.5rem 4rem;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.form-control {
+    color: white;
+    background: rgba(181, 181, 181, 0.51) !important;
+    border-radius: 32.5px;
+    border: 1px solid rgba(181, 181, 181, 0.51);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#InputEmail1:focus,
+#InputPassword1:focus {
+    outline: none;
+    border-color: #1B7369;
+    box-shadow: 0 0 15px #1B7365;
+}
+
+.btn-secondary {
+    color: rgba(255, 255, 255, 0.55);
+    border-radius: 32.5px;
+    background-color: black;
+    border: none;
+    font-size: 0.95rem;
+}
+
+.btn-outline-dark {
+    border-color: rgba(255, 255, 255, 0.70);
+}
+
+.btn-secondary:hover {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+p {
+    color: rgba(252, 246, 246, 0.44);
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #logo {
+        font-size: 1.2rem;
+    }
+
+    .navbar-text {
+        font-size: 0.8rem;
+        margin-left: -10px;
+    }
+    .btn-outline-dark{
+        font-size: 0.7rem;
+    }
+    .signincard{
+        height: 70vh;
+    }
+    .form {
+        padding: 0 0.5rem 0;
+    }
+    .form-group{
+        font-size: 0.8rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
