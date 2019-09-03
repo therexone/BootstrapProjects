@@ -1,0 +1,108 @@
+body {
+    background-color: #232323;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#container {
+    max-width: 600px;
+    width: 95%;
+    /* center things */
+    margin: 2rem auto;
+}
+
+.square {
+    background-color: aquamarine;
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    /* one of the ways for l; floats element to left of the container and others wrap around it */
+    float: left;
+    border-radius: 25px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 2rem;
+    font-weight: 400;
+
+}
+
+.mode {
+    color: black;
+}
+
+.strip {
+    background-color: white;
+    text-align: center;
+}
+
+.stat {
+    color: black;
+    display: inline-block;
+    width: 20%;
+}
+
+.header {
+    text-align: center;
+    background-color: #2C62B7;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.03em;
+}
+
+.rgbd {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.reset,
+.mode {
+    color: #2C62B7;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    padding: 0.05rem 0.5rem;
+    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+     outline: none;
+}
+
+.reset:hover,
+.mode:hover,
+.activemode {
+    background-color: #2C62B7;
+    color: white;
+}
+
+.instructions{
+    position: fixed;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    .rgbd{
+        font-size: 1.9rem;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    .reset,.mode, .stat{
+        font-size: 0.8rem;
+    }
+    #container{
+        
+    }
+    
+}
