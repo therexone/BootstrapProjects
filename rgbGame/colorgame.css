@@ -74,6 +74,7 @@ h1 {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
      outline: none;
+     height: 100%;
 }
 
 .reset:hover,
