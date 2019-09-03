@@ -39,6 +39,7 @@ h1 {
 .strip {
     background-color: white;
     text-align: center;
+    height: 2rem;
 }
 
 .stat {
@@ -69,7 +70,7 @@ h1 {
     font-weight: 700;
     font-size: 1rem;
     letter-spacing: 0.03em;
-    padding: 0.05rem 0.5rem;
+    padding: 0.0rem 0.5rem;
     transition: all 0.3s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
